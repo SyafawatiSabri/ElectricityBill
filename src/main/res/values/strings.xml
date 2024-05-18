@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AboutActivity</string>
+    <string name="developed_by">Developed by:</string>
+    <string name="text_name">Name:</string>
+    <string name="text_student_id">Student ID:</string>
+    <string name="text_group">Group:</string>
+    <string name="logo_description">Logo description for accessibility</string>
+
+    <string name="action_about">About</string>
+
+
+</resources>

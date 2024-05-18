@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AssignmentElectric" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/ic_launcher_background</item>
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <!-- Toolbar style -->
+    <style name="ToolbarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Application theme -->
+    <style name="Theme.AssignmentElectric" parent="Base.Theme.AssignmentElectric">
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+
+    </style>
+
+</resources>
